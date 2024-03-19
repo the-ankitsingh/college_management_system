@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="insert.php" method="post">
+    
+        <div class="main">
+            <div class="navbar">
+                
+                <div class="menuu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <h1>College Management <br><span>System Project</span></h1>
+                <p class="par">College Management System deals with all kind of student details, , <br>
+                    college details, course details, curriculum, batch details and other . <br>
+                    It tracks all the details of a student from the day one to the end of  <br>reporting purpose, 
+                    tracking of attendance, progress in the course,</p>
+                    <div class="form">
+                        <h2>Register</h2>
+                       <label> Name: &nbsp;&nbsp; <input type="text" name="fname" placeholder="Enter a Name"><br><br></label>
+                       <label> Designation: <select name="designation">
+                        <option></option>
+                        <option>Admin</option>
+                        <option>student</option>
+                       </select><br>
+                        <label> UserName:&nbsp;&nbsp; <input type="text" name="uname" placeholder="Enter a UserName"></label>
+                            <label> Password: &nbsp;&nbsp; <input type="password" name="password" placeholder="Emter a Password"></label>
+                           <br> <label> Confirm Password:&nbsp;&nbsp; <input type="password" name="confirmpassword" placeholder="Enter a Confirm Password"><br></label>
+                        <button class="btn"><a href="insert.php">Sign Up</a></button>
+                        <p class="link">Don't have an account<br>
+                        <a href="#">Sign up </a></a>here</a></p>
+                        
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>

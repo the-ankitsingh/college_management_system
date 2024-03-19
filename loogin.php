@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewreport" content="width=device-width,intial-scale=1.0">
+        <title>Login page </title>
+        <link rel="stylesheet" href="style4.css"> 
+        </head>
+        <body>
+            <form action="checklogin.php" method="post" name="f1">
+            <section>
+                <div class="imgbx">
+                    <img src="7.jpg">
+                </div>
+                <div class="contentbx">
+                    <div class="formbx">
+                        <h2>Login here</h2>
+                        <form>
+                            <div class="inputbx">
+                                <span>UserName</span>
+                                <input type="text" name="t1">
+                            </div>
+                            <div class="inputbx">
+                                <span>Password</span>
+                                <input type="password" name="t2">
+                                </div>
+                                <div class="inputbx">
+                                    <select name="designation">
+                                        <option></option>
+                                        <option>Admin</option>
+                                        <option>student</option>
+                                       </select>
+                                    </div>
+                                <div class="remember">
+                                    <label><input type="checkbox" name="">Remember me</label>
+                                </div>
+                                <div class="inputbx">
+                                    <input type="submit" value="login" name="submit">
+                                    </div>
+                    </div>
+                </div>
+            </section>
+            <?php
+            if(isset($_SESSION["S1"]))
+            {
+                $X=$_SESSION['S1'];
+                if($X==1)
+                echo "login failure";
+            }
+            ?>
+            </form>
+        </body>
+</html>

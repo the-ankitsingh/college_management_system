@@ -1,0 +1,234 @@
+.banner-area{
+    background-image: url(4.jpg);
+    background-position: center center;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px 60px;
+
+}
+.menu{
+    width: 42%;
+    float: right;
+    list-style: none;
+}
+.menu li{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+.menu li:hover{
+    background: yellow;
+}
+.menu li:hover a{
+    color: #000;
+}
+.menu li a{
+    text-decoration: none;
+    font-family: baloo;
+    color: red;
+    text-transform: uppercase;
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: big john;
+    padding: 20px 0;
+    width: 20%;
+    float: left;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+.banner-text h2{
+    font-family: ballo;
+    margin: 0;
+    font-size: 55px;
+    color: yellow;
+}
+.banner-text p{
+    font-size: 22px;
+    margin: 0;
+    font-family: poppins;
+}
+.banner-text a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    font-size: 17px;
+    padding: 10px 35px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 5%;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.banner-text a:hover{
+    border-color: yellow;
+    background: yellow;
+    transition: .9s;
+    color: #262626;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1300px;
+    height: 80px;
+    margin: auto;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.menuu{
+    width: 450px;
+    float: left;
+    height: 70px;
+    border: 50px;
+    border-radius: 10px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    background: orange;
+}
+ul li a:hover {
+    color: #000;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 3opx;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.form{
+    width: 320px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 230px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 180px;
+    height: 12px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-left: none;
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background: #fff;
+    color: orangered;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+}
